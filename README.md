@@ -70,23 +70,35 @@ To carry out all the objectives for this repo, the following necessary dependenc
 
 It's highly recommended to use a virtual environment for your projects, there are many ways to do this; we've outlined one such method below. Make sure to regularly update this section. This way, anyone who clones your repository will know exactly what steps to follow to prepare the necessary environment. The instructions provided here should enable a person to clone your repo and quickly get started.
 
-### Create the new evironment - you only need to do this once
+### How to set-up your GitHub
 
-```bash
-# create the conda environment
-conda create --name <env>
-```
+Create a folder where your documents will be stored.
 
-### This is how you activate the virtual environment in a terminal and install the project dependencies
+Fork the repository in Github.com in the following manner:
+- Go to the parent repository.
+- In the top right corner of the page, click on the fork button.
+- Select your github profile, which will create a fork.
 
-```bash
-# activate the virtual environment
-conda activate <env>
-# install the pip package
-conda install pip
-# install the requirements for this project
-pip install -r requirements.txt
-```
+Clone the forked repository in Github Desktop
+- Open github desktop.
+- Go to File > Clone Repository.
+- In the Github.com tab, find the repository you have just forked.
+- Select the repository and choose a local path for cloning, then click on clone.
+- Click on "For own purpose".
+
+Github Desktop should automatically track changes, but you can also initiate it in GitBash
+- Open GitBash.
+- Type the following:
+-- cd C:/Path/to/file (where the files are stored) and press enter.
+-- git init (to initialise tracking) and press enter.
+
+Clone the Github repository in VS Code to work on the .ipynb file for coding
+- Open VS Code.
+- Go to View > Command Pallette (ctrl+shift+P).
+- Type Git:Clone and select your repository.
+- Choose a folder on your computer where you want to save your project.
+- Once cloned, open the folder in VS code
+
 
 ## 5. Team Members<a class="anchor" id="team-members"></a>
 
